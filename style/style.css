@@ -53,6 +53,9 @@ a{
     background-color: #75D0FF;
     border: 1px solid black;
 }
+.table1{
+    margin: auto;
+}
 .table1 td:hover{
     transition: .2s;
     transform: scale(1.5);
@@ -67,15 +70,15 @@ a{
 }
 .numeros{
     align-self: flex-start;
-    width: 68px;
-    font-size: 15px;
+    width: 67px;
+    font-size: 10px;
 }
 .sigla{
-    font-size: 23px;
+    font-size: 20px;
     text-align: center;
 }
 .elemento{
-    font-size: 13px;    
+    font-size: 12px;    
     text-align: center;
 }
 .table2{
@@ -125,5 +128,5 @@ a{
 }
 .descricao tr:target{
     background-color:#eccbe8;
-    transition: all 1s ease 0.01s;
+    transition: all 1s ease 0.015s;
 }
